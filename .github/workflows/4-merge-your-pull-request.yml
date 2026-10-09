@@ -5,6 +5,7 @@ name: Step 4 # Merge your pull request
 # - If all checks pass, the workflow is disabled so it doesn't run again. As such, workflow status badge will change to green.
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
